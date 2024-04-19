@@ -1,5 +1,7 @@
 #! /usr/bin/env node
 import inquirer from "inquirer";
+import chalk from "chalk";
+console.log(chalk.greenBright.bold("\n \t Wellcome to the code with - 'Sameer Anis' - Todos_list\n"));
 let todos = [];
 let condition = true;
 while (condition) {
